@@ -1,0 +1,6 @@
+pyspark==3.5.1
+kafka-python>=2.0.3
+python-dotenv>=1.0
+requests>=2.31
+# Потрібно лише там, де працює Airflow (Частина 2, project_solution.py)
+# apache-airflow-providers-apache-spark

@@ -1,0 +1,38 @@
+# Секрети
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Spark / streaming
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Data lake (генерується скриптами)
+landing/
+bronze/
+silver/
+gold/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
